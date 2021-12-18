@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F77356D1B63C1024C4BB1C0 /* Pods_EurekaSample_EurekaSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8E2826C0CEED5687C6EEE3 /* Pods_EurekaSample_EurekaSampleUITests.framework */; };
+		A713C947713762CF5716235F /* Pods_EurekaSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0378F8AA59DCAFED2946E9 /* Pods_EurekaSampleTests.framework */; };
+		AD66C3B33D962359F11938C3 /* Pods_EurekaSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF91BDE0B1AFF2C0E58446F /* Pods_EurekaSample.framework */; };
+		B4515C24276D6A0F00EC91DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C23276D6A0F00EC91DD /* AppDelegate.swift */; };
+		B4515C26276D6A0F00EC91DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C25276D6A0F00EC91DD /* SceneDelegate.swift */; };
+		B4515C28276D6A0F00EC91DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C27276D6A0F00EC91DD /* ViewController.swift */; };
+		B4515C2B276D6A0F00EC91DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4515C29276D6A0F00EC91DD /* Main.storyboard */; };
+		B4515C2D276D6A1100EC91DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4515C2C276D6A1100EC91DD /* Assets.xcassets */; };
+		B4515C30276D6A1100EC91DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4515C2E276D6A1100EC91DD /* LaunchScreen.storyboard */; };
+		B4515C3B276D6A1100EC91DD /* EurekaSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C3A276D6A1100EC91DD /* EurekaSampleTests.swift */; };
+		B4515C45276D6A1100EC91DD /* EurekaSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C44276D6A1100EC91DD /* EurekaSampleUITests.swift */; };
+		B4515C47276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C46276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4515C37276D6A1100EC91DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4515C18276D6A0F00EC91DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4515C1F276D6A0F00EC91DD;
+			remoteInfo = EurekaSample;
+		};
+		B4515C41276D6A1100EC91DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4515C18276D6A0F00EC91DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4515C1F276D6A0F00EC91DD;
+			remoteInfo = EurekaSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F433759EE1F5F1B4B03AB66 /* Pods-EurekaSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-EurekaSampleTests/Pods-EurekaSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FF91BDE0B1AFF2C0E58446F /* Pods_EurekaSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E1CB9CFF09D8FA36AB0387 /* Pods-EurekaSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaSample.debug.xcconfig"; path = "Target Support Files/Pods-EurekaSample/Pods-EurekaSample.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8AF0A3D23313082F9BFAE2 /* Pods-EurekaSample-EurekaSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaSample-EurekaSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-EurekaSample-EurekaSampleUITests/Pods-EurekaSample-EurekaSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4515C20276D6A0F00EC91DD /* EurekaSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4515C23276D6A0F00EC91DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4515C25276D6A0F00EC91DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4515C27276D6A0F00EC91DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4515C2A276D6A0F00EC91DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4515C2C276D6A1100EC91DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4515C2F276D6A1100EC91DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4515C31276D6A1100EC91DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4515C36276D6A1100EC91DD /* EurekaSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4515C3A276D6A1100EC91DD /* EurekaSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaSampleTests.swift; sourceTree = "<group>"; };
+		B4515C40276D6A1100EC91DD /* EurekaSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4515C44276D6A1100EC91DD /* EurekaSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaSampleUITests.swift; sourceTree = "<group>"; };
+		B4515C46276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAD4E37A9A7774FE6A341F1E /* Pods-EurekaSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaSample.release.xcconfig"; path = "Target Support Files/Pods-EurekaSample/Pods-EurekaSample.release.xcconfig"; sourceTree = "<group>"; };
+		E27E659ADE36AA286B61BB01 /* Pods-EurekaSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaSampleTests.release.xcconfig"; path = "Target Support Files/Pods-EurekaSampleTests/Pods-EurekaSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF0378F8AA59DCAFED2946E9 /* Pods_EurekaSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A1A51AB1AAFE7D47BACC4B /* Pods-EurekaSample-EurekaSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaSample-EurekaSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-EurekaSample-EurekaSampleUITests/Pods-EurekaSample-EurekaSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8E2826C0CEED5687C6EEE3 /* Pods_EurekaSample_EurekaSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaSample_EurekaSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4515C1D276D6A0F00EC91DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD66C3B33D962359F11938C3 /* Pods_EurekaSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4515C33276D6A1100EC91DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A713C947713762CF5716235F /* Pods_EurekaSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4515C3D276D6A1100EC91DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F77356D1B63C1024C4BB1C0 /* Pods_EurekaSample_EurekaSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D526E04D346EF6281786C40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35E1CB9CFF09D8FA36AB0387 /* Pods-EurekaSample.debug.xcconfig */,
+				BAD4E37A9A7774FE6A341F1E /* Pods-EurekaSample.release.xcconfig */,
+				F8A1A51AB1AAFE7D47BACC4B /* Pods-EurekaSample-EurekaSampleUITests.debug.xcconfig */,
+				3F8AF0A3D23313082F9BFAE2 /* Pods-EurekaSample-EurekaSampleUITests.release.xcconfig */,
+				0F433759EE1F5F1B4B03AB66 /* Pods-EurekaSampleTests.debug.xcconfig */,
+				E27E659ADE36AA286B61BB01 /* Pods-EurekaSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A0890F42BE3882678E29AAA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FF91BDE0B1AFF2C0E58446F /* Pods_EurekaSample.framework */,
+				FF8E2826C0CEED5687C6EEE3 /* Pods_EurekaSample_EurekaSampleUITests.framework */,
+				EF0378F8AA59DCAFED2946E9 /* Pods_EurekaSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4515C17276D6A0F00EC91DD = {
+			isa = PBXGroup;
+			children = (
+				B4515C22276D6A0F00EC91DD /* EurekaSample */,
+				B4515C39276D6A1100EC91DD /* EurekaSampleTests */,
+				B4515C43276D6A1100EC91DD /* EurekaSampleUITests */,
+				B4515C21276D6A0F00EC91DD /* Products */,
+				1D526E04D346EF6281786C40 /* Pods */,
+				A0890F42BE3882678E29AAA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4515C21276D6A0F00EC91DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4515C20276D6A0F00EC91DD /* EurekaSample.app */,
+				B4515C36276D6A1100EC91DD /* EurekaSampleTests.xctest */,
+				B4515C40276D6A1100EC91DD /* EurekaSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4515C22276D6A0F00EC91DD /* EurekaSample */ = {
+			isa = PBXGroup;
+			children = (
+				B4515C23276D6A0F00EC91DD /* AppDelegate.swift */,
+				B4515C25276D6A0F00EC91DD /* SceneDelegate.swift */,
+				B4515C27276D6A0F00EC91DD /* ViewController.swift */,
+				B4515C29276D6A0F00EC91DD /* Main.storyboard */,
+				B4515C2C276D6A1100EC91DD /* Assets.xcassets */,
+				B4515C2E276D6A1100EC91DD /* LaunchScreen.storyboard */,
+				B4515C31276D6A1100EC91DD /* Info.plist */,
+			);
+			path = EurekaSample;
+			sourceTree = "<group>";
+		};
+		B4515C39276D6A1100EC91DD /* EurekaSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4515C3A276D6A1100EC91DD /* EurekaSampleTests.swift */,
+			);
+			path = EurekaSampleTests;
+			sourceTree = "<group>";
+		};
+		B4515C43276D6A1100EC91DD /* EurekaSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4515C44276D6A1100EC91DD /* EurekaSampleUITests.swift */,
+				B4515C46276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift */,
+			);
+			path = EurekaSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4515C1F276D6A0F00EC91DD /* EurekaSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4515C4A276D6A1100EC91DD /* Build configuration list for PBXNativeTarget "EurekaSample" */;
+			buildPhases = (
+				3E081426BF6A0F454862F755 /* [CP] Check Pods Manifest.lock */,
+				B4515C1C276D6A0F00EC91DD /* Sources */,
+				B4515C1D276D6A0F00EC91DD /* Frameworks */,
+				B4515C1E276D6A0F00EC91DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EurekaSample;
+			productName = EurekaSample;
+			productReference = B4515C20276D6A0F00EC91DD /* EurekaSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4515C35276D6A1100EC91DD /* EurekaSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4515C4D276D6A1100EC91DD /* Build configuration list for PBXNativeTarget "EurekaSampleTests" */;
+			buildPhases = (
+				B8F6B7B064FF3717E4F727FA /* [CP] Check Pods Manifest.lock */,
+				B4515C32276D6A1100EC91DD /* Sources */,
+				B4515C33276D6A1100EC91DD /* Frameworks */,
+				B4515C34276D6A1100EC91DD /* Resources */,
+				089ACE7E4668D9578809943E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4515C38276D6A1100EC91DD /* PBXTargetDependency */,
+			);
+			name = EurekaSampleTests;
+			productName = EurekaSampleTests;
+			productReference = B4515C36276D6A1100EC91DD /* EurekaSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4515C3F276D6A1100EC91DD /* EurekaSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4515C50276D6A1100EC91DD /* Build configuration list for PBXNativeTarget "EurekaSampleUITests" */;
+			buildPhases = (
+				5F60BC8C0C833601A3259E8B /* [CP] Check Pods Manifest.lock */,
+				B4515C3C276D6A1100EC91DD /* Sources */,
+				B4515C3D276D6A1100EC91DD /* Frameworks */,
+				B4515C3E276D6A1100EC91DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4515C42276D6A1100EC91DD /* PBXTargetDependency */,
+			);
+			name = EurekaSampleUITests;
+			productName = EurekaSampleUITests;
+			productReference = B4515C40276D6A1100EC91DD /* EurekaSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4515C18276D6A0F00EC91DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B4515C1F276D6A0F00EC91DD = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B4515C35276D6A1100EC91DD = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B4515C1F276D6A0F00EC91DD;
+					};
+					B4515C3F276D6A1100EC91DD = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B4515C1F276D6A0F00EC91DD;
+					};
+				};
+			};
+			buildConfigurationList = B4515C1B276D6A0F00EC91DD /* Build configuration list for PBXProject "EurekaSample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4515C17276D6A0F00EC91DD;
+			productRefGroup = B4515C21276D6A0F00EC91DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4515C1F276D6A0F00EC91DD /* EurekaSample */,
+				B4515C35276D6A1100EC91DD /* EurekaSampleTests */,
+				B4515C3F276D6A1100EC91DD /* EurekaSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4515C1E276D6A0F00EC91DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4515C30276D6A1100EC91DD /* LaunchScreen.storyboard in Resources */,
+				B4515C2D276D6A1100EC91DD /* Assets.xcassets in Resources */,
+				B4515C2B276D6A0F00EC91DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4515C34276D6A1100EC91DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4515C3E276D6A1100EC91DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089ACE7E4668D9578809943E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaSampleTests/Pods-EurekaSampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaSampleTests/Pods-EurekaSampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EurekaSampleTests/Pods-EurekaSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E081426BF6A0F454862F755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F60BC8C0C833601A3259E8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaSample-EurekaSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F6B7B064FF3717E4F727FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4515C1C276D6A0F00EC91DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4515C28276D6A0F00EC91DD /* ViewController.swift in Sources */,
+				B4515C24276D6A0F00EC91DD /* AppDelegate.swift in Sources */,
+				B4515C26276D6A0F00EC91DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4515C32276D6A1100EC91DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4515C3B276D6A1100EC91DD /* EurekaSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4515C3C276D6A1100EC91DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4515C45276D6A1100EC91DD /* EurekaSampleUITests.swift in Sources */,
+				B4515C47276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4515C38276D6A1100EC91DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4515C1F276D6A0F00EC91DD /* EurekaSample */;
+			targetProxy = B4515C37276D6A1100EC91DD /* PBXContainerItemProxy */;
+		};
+		B4515C42276D6A1100EC91DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4515C1F276D6A0F00EC91DD /* EurekaSample */;
+			targetProxy = B4515C41276D6A1100EC91DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4515C29276D6A0F00EC91DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4515C2A276D6A0F00EC91DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4515C2E276D6A1100EC91DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4515C2F276D6A1100EC91DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4515C48276D6A1100EC91DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4515C49276D6A1100EC91DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4515C4B276D6A1100EC91DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E1CB9CFF09D8FA36AB0387 /* Pods-EurekaSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EurekaSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.EurekaSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4515C4C276D6A1100EC91DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD4E37A9A7774FE6A341F1E /* Pods-EurekaSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EurekaSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.EurekaSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4515C4E276D6A1100EC91DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F433759EE1F5F1B4B03AB66 /* Pods-EurekaSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.EurekaSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EurekaSample.app/EurekaSample";
+			};
+			name = Debug;
+		};
+		B4515C4F276D6A1100EC91DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27E659ADE36AA286B61BB01 /* Pods-EurekaSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.EurekaSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EurekaSample.app/EurekaSample";
+			};
+			name = Release;
+		};
+		B4515C51276D6A1100EC91DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A1A51AB1AAFE7D47BACC4B /* Pods-EurekaSample-EurekaSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.EurekaSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EurekaSample;
+			};
+			name = Debug;
+		};
+		B4515C52276D6A1100EC91DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8AF0A3D23313082F9BFAE2 /* Pods-EurekaSample-EurekaSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.EurekaSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EurekaSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4515C1B276D6A0F00EC91DD /* Build configuration list for PBXProject "EurekaSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4515C48276D6A1100EC91DD /* Debug */,
+				B4515C49276D6A1100EC91DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4515C4A276D6A1100EC91DD /* Build configuration list for PBXNativeTarget "EurekaSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4515C4B276D6A1100EC91DD /* Debug */,
+				B4515C4C276D6A1100EC91DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4515C4D276D6A1100EC91DD /* Build configuration list for PBXNativeTarget "EurekaSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4515C4E276D6A1100EC91DD /* Debug */,
+				B4515C4F276D6A1100EC91DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4515C50276D6A1100EC91DD /* Build configuration list for PBXNativeTarget "EurekaSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4515C51276D6A1100EC91DD /* Debug */,
+				B4515C52276D6A1100EC91DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4515C18276D6A0F00EC91DD /* Project object */;
+}
