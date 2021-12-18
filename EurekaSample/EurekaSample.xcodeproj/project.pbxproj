@@ -19,6 +19,7 @@
 		B4515C3B276D6A1100EC91DD /* EurekaSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C3A276D6A1100EC91DD /* EurekaSampleTests.swift */; };
 		B4515C45276D6A1100EC91DD /* EurekaSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C44276D6A1100EC91DD /* EurekaSampleUITests.swift */; };
 		B4515C47276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C46276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift */; };
+		B4515C55276D6D7F00EC91DD /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = B4515C54276D6D7F00EC91DD /* Eureka */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD66C3B33D962359F11938C3 /* Pods_EurekaSample.framework in Frameworks */,
+				B4515C55276D6D7F00EC91DD /* Eureka in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +103,6 @@
 				0F433759EE1F5F1B4B03AB66 /* Pods-EurekaSampleTests.debug.xcconfig */,
 				E27E659ADE36AA286B61BB01 /* Pods-EurekaSampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -185,6 +186,9 @@
 			dependencies = (
 			);
 			name = EurekaSample;
+			packageProductDependencies = (
+				B4515C54276D6D7F00EC91DD /* Eureka */,
+			);
 			productName = EurekaSample;
 			productReference = B4515C20276D6A0F00EC91DD /* EurekaSample.app */;
 			productType = "com.apple.product-type.application";
@@ -260,6 +264,9 @@
 				Base,
 			);
 			mainGroup = B4515C17276D6A0F00EC91DD;
+			packageReferences = (
+				B4515C53276D6D7F00EC91DD /* XCRemoteSwiftPackageReference "Eureka" */,
+			);
 			productRefGroup = B4515C21276D6A0F00EC91DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -755,6 +762,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4515C53276D6D7F00EC91DD /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4515C54276D6D7F00EC91DD /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4515C53276D6D7F00EC91DD /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4515C18276D6A0F00EC91DD /* Project object */;
 }
