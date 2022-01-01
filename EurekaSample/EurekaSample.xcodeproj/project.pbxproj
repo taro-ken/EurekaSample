@@ -20,6 +20,7 @@
 		B4515C45276D6A1100EC91DD /* EurekaSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C44276D6A1100EC91DD /* EurekaSampleUITests.swift */; };
 		B4515C47276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4515C46276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift */; };
 		B4515C55276D6D7F00EC91DD /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = B4515C54276D6D7F00EC91DD /* Eureka */; };
+		B4DFF56C27803897007BD324 /* CellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFF56B27803897007BD324 /* CellTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B4515C40276D6A1100EC91DD /* EurekaSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4515C44276D6A1100EC91DD /* EurekaSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaSampleUITests.swift; sourceTree = "<group>"; };
 		B4515C46276D6A1100EC91DD /* EurekaSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4DFF56B27803897007BD324 /* CellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewController.swift; sourceTree = "<group>"; };
 		BAD4E37A9A7774FE6A341F1E /* Pods-EurekaSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaSample.release.xcconfig"; path = "Target Support Files/Pods-EurekaSample/Pods-EurekaSample.release.xcconfig"; sourceTree = "<group>"; };
 		E27E659ADE36AA286B61BB01 /* Pods-EurekaSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaSampleTests.release.xcconfig"; path = "Target Support Files/Pods-EurekaSampleTests/Pods-EurekaSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		EF0378F8AA59DCAFED2946E9 /* Pods_EurekaSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +150,7 @@
 				B4515C2C276D6A1100EC91DD /* Assets.xcassets */,
 				B4515C2E276D6A1100EC91DD /* LaunchScreen.storyboard */,
 				B4515C31276D6A1100EC91DD /* Info.plist */,
+				B4DFF56B27803897007BD324 /* CellTableViewController.swift */,
 			);
 			path = EurekaSample;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				B4515C28276D6A0F00EC91DD /* ViewController.swift in Sources */,
 				B4515C24276D6A0F00EC91DD /* AppDelegate.swift in Sources */,
 				B4515C26276D6A0F00EC91DD /* SceneDelegate.swift in Sources */,
+				B4DFF56C27803897007BD324 /* CellTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
